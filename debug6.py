@@ -6,5 +6,9 @@ original code:
 """
 x = 3
 y = 4
-if x > y:
-    print("y is larger than x")
+a = int(x)
+b = int(y)
+if a > b:
+    print("x is larger than y ")
+else:
+    print("y is larger than x ")
